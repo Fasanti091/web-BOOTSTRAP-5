@@ -33,3 +33,18 @@
     min-height: 500px;
     position: relative;
 }
+
+footer{
+    min-height: 100px;
+}
+
+footer p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: rgb(0, 0, 0);
+}
