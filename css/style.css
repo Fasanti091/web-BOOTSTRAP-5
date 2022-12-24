@@ -1,0 +1,132 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+    padding: 1rem;
+}
+
+hr {
+    width: 80%;
+    display: inline-block;
+}
+
+header {
+    background-color: rgb(25, 0, 150);
+    height: 10vh;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.logo {
+    width: 250px;
+    margin-left: 15px;
+}
+
+.menu {
+    position: relative;
+    left: 320px;
+    bottom: 33px;
+}
+
+.menu__item{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.menu__link {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Estilos banner */
+
+.text__banner {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilos main__index */
+
+.main__index {
+    display: inline-block;
+    text-align: center;
+}
+
+.section__one {
+    display: inline-block;
+    width: 30%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.section__one article {
+    padding: 1rem;
+}
+
+.section__two {
+    display: inline-block;
+    width: 30%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.section__two article {
+    padding: 1rem;
+}
+
+.section__three {
+    display: inline-block;
+    width: 30%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.section__three article {
+    padding: 1rem;
+}
+
+/* Footer */
+
+footer {
+    padding-top: 2rem;
+    height: 200px;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    background-color: rgb(22, 0, 148);
+}
+
+footer ul {
+    display: inline-block;
+    padding: 2rem;
+    margin-top: 5px;
+}
+
+.boton__one {
+    padding: 1rem;
+    text-align: center;
+}
+
+.boton__two {
+    padding: 1rem;
+    text-align: center;
+}
+
+.boton__three {
+    padding: 1rem;
+    text-align: center;
+}
