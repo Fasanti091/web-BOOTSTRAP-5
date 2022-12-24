@@ -1,3 +1,35 @@
 .carousel-inner{
     max-height: 40rem;
 }
+
+@media (max-width:768px){
+    #intro, #equipo{
+        width: 90% !important;
+    }
+
+    #equipo p{
+        display: none;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+@media(max-width: 576px){
+    .icono-warp{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+#bg-contacto{
+    position: relative;
+    top: -130px;
+}
+
+#seccion-contacto{
+    background-color: #FF0000;
+    min-height: 500px;
+    position: relative;
+}
